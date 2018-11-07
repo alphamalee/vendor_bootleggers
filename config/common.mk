@@ -82,6 +82,21 @@ $(foreach f,$(wildcard vendor/bootleggers/prebuilt/common/etc/init/*.rc),\
 	$(eval PRODUCT_COPY_FILES += $(f):system/etc/init/$(notdir $f)))
 
 # Copy over added mimetype supported in libcore.net.MimeUtils
+PRODUCT_PACKAGES += \
+    Terminal \
+    LatinIME \
+    LiveWallpapers \
+    LiveWallpapersPicker \
+    Stk \
+    ViaBrowser \
+    AEXPapers \
+    RetroMusicPlayer \
+    WallpaperPickerGoogle \
+    MarkupGoogle \
+    WellbeingPrebuilt \
+    Recorder \
+    SubstratumKey
+
 PRODUCT_COPY_FILES += \
     vendor/bootleggers/prebuilt/common/lib/content-types.properties:system/lib/content-types.properties
 
