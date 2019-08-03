@@ -95,7 +95,7 @@ PRODUCT_PACKAGES += \
     MarkupGoogle \
     WellbeingPrebuilt \
     Recorder \
-    SubstratumKey
+    SubstratumSignature
 
 PRODUCT_COPY_FILES += \
     vendor/bootleggers/prebuilt/common/lib/content-types.properties:system/lib/content-types.properties
